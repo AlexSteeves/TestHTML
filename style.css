@@ -1,24 +1,25 @@
 body{
     margin: 0;
     padding:0;
-    background: url("https://i.pinimg.com/originals/c7/af/40/c7af406dac87685fec66dc3d10e2719f.jpg") no-repeat;
+    background: url("https://www.hirisecamera.com/wp-content/uploads/2014/01/dark-grey-background.jpg") no-repeat;
     background-size: cover;
 
 }
 .box{
     width: 400px;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0, 0, 0, 0.060);
     padding: 40px;
     text-align: center;
     margin: auto;
     margin-top: 5%;
     color: white;
     font-family: 'Century Gothic', sans-serif;
+    border-radius: 10%;
 }
 .box-img{
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 
 }
 .box h1{
@@ -34,8 +35,11 @@ body{
 
 }
 .box p{
-    text-align: justify;
+    text-align: center;
 
+}
+.box v{
+    text-align: center;
 }
 ul{
     margin:0;
@@ -55,3 +59,25 @@ ul{
 .box li a:hover{
     color: #b9b9b9;
 }
+
+.smallBox{
+    width: 40px;
+    background: rgba(0,0,0,0.06);
+    padding: 40px;
+    text-align:center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family:'Century Gothic', sans-serif;
+    border-radius: 10%;
+
+}
+.smallBox z{
+    font-size:20px;
+    color: white;
+    
+}
+.button but1{
+    font-size:40px;
+}
+
